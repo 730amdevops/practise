@@ -1,0 +1,1935 @@
+DevOps Master Program - Mithun Technologies -  +91 99809 23226
+---------------------   -------------------    ---------------
+
+
+
+SCM
+
+GitHub
+Gitlab
+BitBucket
+SVN
+CVS
+
+
+Code Review
+
+
+
+Docker
+
+Kubernetes (K8s)
+
+
+Monolithic --> No need of D and K8s
+
+Micro Services Arch --> use Docker , K8s
+
+
+wallmart
+
+admin
+login
+users
+reports
+
+
+
+
+DevOps Master Program
+----------------------
+
+Linux Commands - 15 Hours
+Shell Script - 10 Hours
+
+Git and GitHub - 10 Hours
+Maven - 4 Hours
+Tomcat - 4 Hours
+Apache HTTP
+
+SonarQube - 4 Hours
+Nexus - 5 HOurs
+
+Jenkins - 14 Hours
+
+AWS - 10 Hours
+
+Docker - 18 Hours
+
+K8s - 25 Hours
+Grafana..
+ELK
+
+Ansible - 10 Hours
+
+Resume Preparation - 2 Hours
+
+10 Years
+
+3 - 4Years on DevOps
+
+6 Years -- QA
+
+
+100 % Job Guarnte... *******
+
+-Everyday
+-Assignmnets
+
+
+Soft copy PDF files
+
+Interview Questions -- 
+
+99 % --> our sessions
+
+
+Aug 16th At 7.30 AM to 9 AM IST - Session 1 --> 60 - 75 Days
+
+
+6 AM to 7.30 AM
+
+
+4 GB RAM
+
+
+12 Test Manager - 
+
+4 on DevOps
+8 Years on QA
+
+
+
+DevOps Eng 0 - 5
+
+Sr Devops 5 - 8
+
+DevOps arch - 10 - 15
+
+DevOps Manager 16 ---
+
+55 Years - OLD
+
+26 - Years on IT
+
+
+Cloud Eng
+
+
+99809 23226 -- Mithun Technologies Admin
+
+
+9980923216 -- Bhaskar Reddy - Trainer number..
+
+9014996877 --
+
+Whatsapp -->
+
+
+
+CKA
+CKAD
+
+Jenkins
+Ansible
+
+
+3 Years -- 12 Laks
+
+3.6 PA
+
+
+1.4 Ye -- 8.69 LPA
+
+
+
+
+
+
+
+
+Linux Commands
+--------------
+
+SSH --> Secure Shell
+---------------------
+
+
+Mobaxterm
+
+Git Bash
+
+
+MacBook --> Terminal
+
+
+
+FTP Tools
+---------
+
+FTP --> File Transfer Protocol
+
+
+WinSCP     --> Windows Secure Copy --> Windows
+Filezilla  --> Windows/MAC
+
+
+
+
+OS --> Open Source --> Source code
+
+Free
+
+
+Windows OS --> Is it free?
+
+
+
+AIX --> OS --> IBM
+
+
+mkdir
+MKDIR
+ls
+LS
+
+Windows --> Folders
+
+Linux --> Directory
+
+/ --> root/parent directory == C:// in Windows  Users
+
+home
+----
+ mithun
+ /home/mithun --> Mithun Use HD
+ devops.txt
+ 
+ manan
+ ruthvik
+ /home/ruthvik
+ devops.txt
+ 
+ 
+ shishir
+ 
+ 
+bin
+---
+ ls
+ mkdir
+ date
+ 
+sbin
+----
+shutdown
+useradd
+
+
+
+Types of Users in Linux
+-----------------------
+3 Types
+
+1) Normal Users
+
+2) Super User / admin user /root user (root)
+
+3) System Users  -- Jenkins CI --> jenkins
+
+
+etc
+---
+
+configuration files
+
+
+shadow
+gshadow
+passwd
+group
+sudoers
+motd
+cron.allow
+
+Crontab
+
+Nexus --> nexus
+
+
+dev
+---
+
+proc
+----
+
+PID
+
+cpuinfo --> CPU
+meminfo --> RAM 
+
+
+lib
+---
+
+tmp
+----
+devops.txt
+
+
+var
+---
+
+/var/logs
+
+jenkins
+
+
+opt
+---
+
+Jenkins
+Maven
+Tomcat
+SOnarQube
+Nexus
+
+
+what is the root user home directory ?
+
+a)/ --> root dir/parnet dir
+b)/home/root
+c)/root --> root user home dir
+d)NA
+
+
+Lab Setup
+---------
+
+Linux Server
+
+
+8GB  Windows
+
+Virtual Box
+VM ware
+
+Linux OS
+
+RedHat
+
+
+
+Cloud Providers
+
+AWS
+Azure
+GCP
+
+
+EC2--> ECC 
+
+
+
+24x31= 744x2
+
+
+750 Hours
+
+
+Lab Setup
+---------
+Step1) Register in AWS using below url and follow the video.
+
+AWS URL: https://console.aws.amazon.com/
+
+YoutUbe Video: https://youtu.be/MEunyVOYSZg
+
+
+Step2) Login into AWS and Create the EC2 Instance.
+
+Follow below video and create EC2 instance.
+https://www.youtube.com/watch?v=lnelPTX_xeY
+
+Step3) Connect to the Linux Server
+
+For Windows OS Only
+-------------------
+Method 1
+
+https://youtu.be/1sVR-cp8pCU
+
+
+For MAC Book Only
+-----------------
+https://www.youtube.com/watch?v=R4RDlKRT3D0
+
+
+cd ~/Desktop/EC2Pemfiles
+
+
+mkdir Test
+
+command
+mkdir -v DevOps
+           Linux
+		     ShellScript
+			      Git
+				   Maven
+				     Tomcat
+
+/ --> Forward Slash
+
+\ --> Backward slash
+
+mkdir -pv DevOps/Linux/ShellScript/Git/Maven/Tomcat
+
+mkdir  DevOps/Linux/ShellScript/Git/Maven/Tomcat/SonarQube --> Is it Valid?
+
+mkdir  DevOps/Linux/ShellScript/Git/Maven/Tomcat/SonarQube/Nexus
+
+mkdir -vm 700 Python
+-v
+-p
+-m
+
+.bash_profile
+.ssh
+
+sudo su -
+(OR)
+sudo -i
+
+
+INode Number --> ls -li
+
+
+What is the iNode?
+
+Ans) I node is a Data Structure, it can store the file/dir info.
+
+-l
+a
+h
+
+t
+
+
+mkdir
+ls
+tree
+cd 
+
+RedHat/CentOs/Fedora
+
+yum install tree 
+yum remove tree 
+yum update tree 
+
+
+Ubuntu/Debian
+
+apt (OR) apt-get
+
+
+apt install tree
+apt remove tree
+apt update tree
+
+
+
+
+
+cd ~
+
+~ --> User Home Directory
+
+
+ec2-user
+
+cd /home/ec2-user
+
+cd ~ (OR) cd
+
+
+bhaskar
+
+cd ~ --> bhaskar user hd --> /home/bhaskar
+cd /home/ec2-user
+
+
+
+cd -
+
+
+
+mkdir
+ls
+tree
+yum
+pwd
+cd
+
+rmdir --> empty dirs
+
+
+rm --> non empty dirs
+
+mkdir DevOps
+
+touch devops.txt
+
+
+ec2-user
+
+root
+
+
+
+!
+
+
+How to find the all the empty files in current dir?
+
+Ans)
+
+$find . -type f -empty --> Current Dir
+
+$find ~ -type f -empty --> User Home dir
+
+#find / -type f -empty  --> entire file system
+
+/home/bhaskar
+
+/home/ec2-user
+
+
+/ --> root dir
+
+
+How to find the all the empty dirs in current dir?
+
+find . -type d -empty --> Current Dir
+
+
+                umask        dir        file
+
+root            0022         755         644
+
+normal user     0002         775         664
+
+
+
+
+
+Base Permissions for the dir is: 0777
+                             (-) 0002
+							     -----
+								 0775
+								 -----
+ 
+
+Base Permissions for the file is : 0666
+                               (-) 0002
+							   ---------
+							       0664
+
+
+6  6    4
+rw- rw- r--
+
+rw-rw-r-- devops.txt
+
+r --> read --> 4
+
+w --> write --> 2
+
+x --> execute --> 1
+
+
+7 --> rwx
+
+755
+
+rwx r-x r-x
+
+
+
+700
+
+rwx --- ---
+Owner
+User    Others
+rwx rwx r-x
+    Group
+
+rw-rw-r-- devops.txt
+
+ec2-user --> Owner/User
+ec2-user --> Group
+
+root --> others
+
+
+chmod
+
+
+
+umask 222
+
+
+~/.bash_profile
+
+umask 222
+
+
+/etc/profile
+umask 222
+
+
+
+uname
+
+Linux
+
+sudo su -
+
+
+chmod 000 devops.txt
+
+
+chmod 400 devops.txt
+
+chmod u+r devops.txt
+
+
+u--> User
+g--> Group
+o--> Others
+r-- --- ---
+
+004
+
+
+chmod 444 devops.txt
+chmod +r devops.txt
+
+chmod 744 devops.txt
+
+chmod u+rwx,go+r devops.txt
+
+rwx r-- r--
+
+
+chmod 777 devops.txt
+
+
+devops.txt
+hi Guys
+
+-wx -wx -wx 
+
+
+
+chmod -r 700 Bhaskar
+
+
+
+chown
+
+RTO 
+
+
+
+sudo su - : It will switch to the root user, and will point to the root user home directory and will load the root user configurations.
+
+sudo su : It will switch to the root user, and will not point to the root user home directory and will not load the root user configurations.
+
+current dir
+
+Azuree
+
+AZURE
+
+
+chown ec2-user:ec2-user devops.txt
+
+
+ln 
+
+
+facebook
+
+ln /opt/facebook.log  /tmp/lntest.txt
+
+
+
+
+
+
+
+Hard Link                        Soft Link/Symbolic Link
+---------                        -----------------------
+ln                                   ln -s
+
+OF and Lf same properties                       not same as original file
+
+able to access the link file          not able to access the contenct in link
+
+a.txt --> b.txt --> c.txt
+
+
+cant able to create the link for dirs     softlinks can create for dir...
+
+
+
+
+
+vi
+
+vim
+
+nano
+
+
+1) vi bhaskar.txt
+
+COMMAND Mode 
+Press the i --> INSERT MODE
+
+Here the......
+
+
+press esc button --> COMMAND MODE
+
+:wq
+
+2) vi bhaskar.txt
+
+COMMAND Mode 
+
+Press the i --> INSERT MODE
+
+Updatin gthe file..
+
+
+Hello -- Hii
+
+press esc --> COMMAND mode
+
+:q!
+
+:wq!
+
+3)vi bhaskar.txt
+
+:q
+
+
+
+nano
+
+
+
+ctrl + o --> saving
+
+crl + x --> closing
+
+
+Open Mobax Term /Git Bash
+---------------
+
+vi ~/.ssh/config
+
+Press the i --> INSERT MODE
+
+
+Host *
+ServerAliveInterval 30
+ServerAliveCountMax 2
+	
+	
+press the esc
+:wq
+
+
+cat ~/.ssh/config
+
+
+cat
+
+head fn --> 10 Lines
+
+head -n 20 fn
+
+head -20 fn
+
+
+tail -n 15 fn
+
+tail -f fn
+
+
+108 - 110
+
+sample.txt
+
+red red red red red red
+red red red
+red 
+red red red
+red
+
+
+sed 's/red/blue/' sample.txt
+
+
+
+| --> Vertical bar --> Pipe
+
+
+
+10 Users
+
+
+who
+
+8 Core CPU --> 1.0 >
+load average: 1.02, 1.04, 1.01
+
+
+7.0 7.1 6.9
+
+
+services.msc
+
+
+systemctl list-unit-files
+
+
+
+service
+
+systemctl --> RHEL 7.x
+
+
+sshd
+
+
+service sn options
+
+
+service sshd status
+             start
+			 stop
+			 restart
+			 
+			 
+systemctl options sn
+
+systemctl start sshd
+
+
+jenkins --> jenkins
+
+
+systemctl enable jenkins
+
+
+
+ps
+
+
+
+ps -ef | grep java
+
+ps -ef | grep tomcat
+
+
+ps -ef | grep jenkins
+
+     -1
+kill -9 pid
+     -64
+	 
+	 
+top
+
+
+
+10 GB
+
+
+zip -r devops.zip DevOps
+
+unzip
+
+
+tar -cvf
+
+tar -xvf devops.tar
+
+tar -zxvf devops.tar.gz
+
+
+ec2-user
+
+root
+
+
+#useradd bhaskar
+
+home
+----
+bhaskar
+
+/etc/
+-----
+shadow
+group
+passwd
+
+
+
+
+
+7.x
+
+UID --> 1000
+
+
+
+useradd bhaskar
+
+#passwd bhaskar
+passw0rd
+
+
+IP/HN
+Username
+password
+
+
+$passwd
+
+Current Password :passw0rd
+
+New Password: ****
+              ****
+			   
+
+#passwd bhaskar
+
+#chage bhaskar
+
+
+1 Server
+
+10 Users
+
+3 DevOps
+2 QA
+1 MA
+4 Developers
+
+groupadd gn
+
+
+groupadd devops
+
+
+bhaskar
+
+devops group
+
+
+usermod -g devops bhaskar
+
+
+id bhaskar
+
+
+lid -g devops
+
+
+
+How to lock the user?
+Ans) usermod -L bhaskar
+
+
+How to unlock the user?
+Ans) usermod -U bhaskar
+
+
+usermod -g  bhaskar
+
+
+
+su - bhaskar
+
+
+N U --> NU --> Password is required
+NU  --> R U --> Password is required
+
+RU --> NU --> no need password
+
+
+usermod -aG Gn1,Gn2,Gn3 username
+
+
+vi /etc/sudoers
+
+bhaskar
+
+visudo
+
+/etc/
+group
+
+
+useradd
+
+userdel
+
+groupadd
+
+groupdel
+
+#
+####
+
+###
+
+
+
+ssh --> Secure Shell
+
+
+
+ssh username@serverIp/Hn
+******
+
+
+Open GitBash/Mobax Term --> Windows
+Open Terminal --> MAC Book
+
+ssh ec2-user@15.206.90.6
+passw0rd
+
+ssh -i "devospmssdevops.pem" ec2-user@ec2-15-206-90-6.ap-south-1.compute.amazonaws.com
+
+
+
+
+scp --> Secure Copy
+
+
+scp fn ec2-user@ip/hn:/tmp/
+
+scp -r dn ec2-user@ip/hn:/tmp/
+
+
+Crontab
+-------
+
+
+
+5 Commands
+
+
+
+#touch /etc/cron.allow
+
+
+#vi /etc/cron.allow
+
+bhaskar
+ec2-user
+
+crontab -l
+
+crontab -e
+
+crontab -r
+
+
+#crontab -r -u bhaskar
+
+
+vi hello.sh
+i --> INSERT Mode
+
+echo "Hello Everyone.."
+echo "Welcome to Linux Environment"
+echo "Today date is.."
+date
+
+press the esc
+:wq
+
+
+service crond.service status
+
+
+5 1 1 1 0 hello.sh >/dev/null 2>&1
+
+
+
+*/1 * * * *  /home/ec2-user/hello.sh >> /home/ec2-user/hello.log 2>&1
+*/1 * * * *  /home/ec2-user/cleanup.sh >> /home/ec2-user/cleanup.log 2>&1
+
+
+
+
+> --> Redirect Std o/p
+
+>> --> append the std o/p
+
+File Descriptors
+----------------
+0 --> Std i/p
+
+1 --> Std o/p
+
+2 --> Std err
+
+
+
+df -h
+
+top
+
+free
+
+1024 Bytes  -->  1 KB
+1024 KBytes --> 1 MB
+1024 MB --> 1 GB
+
+
+facebook -->  facebook.log
+
+20 % 
+
+
+dmidecode 
+
+
+
+Cloud Servers
+
+On Premisie Server --> 
+
+
+
+mail
+
+SMTP
+
+
+
+mail mailid
+
+Mail Body....
+
+...
+
+Ctrl D
+
+
+
+
+mail
+
+
+
+wget https://dlcdn.apache.org/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.tar.gz
+
+
+curl -o maven.tar.gz https://dlcdn.apache.org/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.tar.gz
+
+
+Call th APIs
+
+
+ping ip/hn
+
+
+
+telnet ip/hn
+
+
+2
+
+1000
+1001
+
+RedHat
+
+redhat-release
+
+
+Ubuntu
+
+os-release
+
+
+cat /etc/*release
+
+
+netstat
+
+
+
+0 - 65535
+
+
+0-1023 -- Reservered Ports
+
+
+22 - SSH
+
+21 - FTP
+
+25 - SMTP
+
+80 - HTTP
+
+443 -- HTTPS
+
+
+
+Tomcat Server 8080
+
+Jenkins Server 8080
+
+
+Shell Scripting
+----------------
+
+vi ~/.ssh/config
+
+What is Shell?
+ANs) Shell is a one program, it will takes the commands whatsever the user is going to type in key board and will gives to the OS, to execute those commands.
+
+Shell is an interface between user and OS.
+
+bash --> default shell --> All Linux Flavours
+sh
+ksh
+zsh
+csh
+tcsh
+
+
+AIX --> OS --> ksh
+
+
+
+echo $SHELL
+
+
+cat /etc/shells
+/bin/bash
+/bin/sh
+
+
+
+
+/bin/sh
+
+/bin/bash
+
+
+Shell Scripting
+---------------
+
+Sh is a file .. contains the series of commands..
+
+.sh
+
+.java
+
+.py
+
+.rb
+
+.js
+
+
+
+hello.sh
+echo "Hello Everyone.."
+echo "Welcome to Linux Environment"
+echo "Today date is.."
+date
+
+
+sh hello.sh
+./hello.sh
+
+
+hello
+
+Hello.java
+
+
+Power Shell  --> Windows
+DOS 
+
+
+Shell Scripting --> Linux
+
+Linux Commands
+
+
+
+
+Ansible --> Python
+
+
+
+Core Python 
+
+
+Python Full Stack
+
+Core Python - 60 +
+DJango
+database
+
+
+
+6 Commands
+
+
+Shell Scripting
+
+
+serverresourcesmonitor.sh
+
+cpu
+ram
+HD
+
+
+free
+df
+top
+
+THRESOLD=80
+
+mail
+
+hostname
+ifconfig
+
+
+Monitoring Tools
+
+NewRelic
+AppDyanmics
+
+
+dbbackup.sh
+
+Relational Databases
+--------------------
+
+Oracle
+MySQL
+PostgreSQL
+Db2
+MS Sql server
+
+
+Structure format
+
+rows and columns
+Data --> Tables 
+
+
+No SQL DBs/Non Relational Db
+-----------------------------
+
+Mongo DD
+Cloudant DB
+
+JSON format
+
+document
+
+table == documnet
+
+
+
+DBA
+
+
+Is SQL DB?
+
+Yes/No
+
+
+SELECT * FROM EMPLOYEE;
+
+
+
+cleanup.sh
+
+
+rm
+find
+df
+
+df
+
+mail
+hostname/ifconfig
+
+
+
+Code Commit
+
+
+DevOps Some AWS
+
+GitHub
+
+Azure DevOps
+
+
+deploy.sh
+
+
+vi hello.sh
+
+COMMAND mode 
+
+press the i ---> INSERT Mode
+
+#! --> Shebang
+
+#!/bin/sh --> SHEBANg Line
+
+
+echo "Hello Everyone.."
+set -x
+echo "Welcome to first Shell Script example"
+echo "Today date is.."
+set +x
+date
+echo "Write many shellscripts and automate your regular work.."
+
+
+press the esc --> COMMAND MOde
+
+:wq
+
+chmod u+x hello.sh
+
+
+sh hello.sh
+
+./hello.sh
+. hello.sh
+sh hello.sh
+bash hello.sh
+csh hello.sh
+
+
+sh -x hello.sh
+
+
+mkdir
+mkdir.sh
+
+ls.sh
+
+for
+
+in
+
+case
+
+
+Comments
+--------
+
+CR
+
+
+
+Single Comments
+
+Java/ Groovy Script/ Terraform
+------------------------------
+//
+
+
+ShellScript
+------------
+#
+
+
+
+Multi Line Comments
+
+Java/ Groovy Script/ Terraform
+------------------------------
+
+/*
+
+
+*/
+
+
+ShellScript
+------------
+
+<<Comments
+
+
+
+Comments
+
+
+
+XML
+---
+
+<!--
+
+
+here....
+
+
+-->
+
+
+
+Variables
+---------
+
+System Defined variables / Shell Variables
+
+env
+printenv
+
+
+SEHLL
+USER
+PWD --> Variable name
+pwd --> Command name
+
+HISTSIZE
+
+echo USER
+
+
+#vi /etc/profile
+
+export HISTSIZE=200
+
+
+$vi ~/.bash_profile
+
+export HISTSIZE=200
+
+
+#vi ~/.bash_profile
+
+User Defined variables
+----------------------
+
+
+C/C++
+------
+
+int a; --> variable declaration
+int b;
+
+
+int --> Data Type
+
+a --> Variable name
+
+
+int a = 10; --> Varibale initialasation
+
+
+
+Shell Script
+------------
+udvars.sh
+
+a=10
+b=20
+c=30
+name=MithunTechnologies
+
+
+echo $a
+echo $b
+echo $c
+echo $name
+
+
+
+var.sh
+
+
+Command Line Arguments
+----------------------
+
+sh hello.sh
+
+sh comments
+
+sh udvars.sh
+
+THRESOLD=80
+
+
+sh dbbackup.sh wallmartdev /opt/dbbackup/ 
+
+echo $0
+echo $1
+echo $2
+echo $3
+echo ${10}
+echo $* --> All the args as a one string.
+echo $@ --> Each arg as a one string.. 
+
+echo $# --> Number of args.
+
+echo $$ --> PID
+Date
+ls
+
+echo $? --> Previous CMD execution status
+
+
+$? --> 0 --> SUccess
+
+Date Command not found.....
+
+$? --> 127 --> Commnd not found
+
+dbbackup.sh arg1  arg3  
+
+if [ $# -eq 2 ]
+then
+
+echo " C L Args demo"
+echo "Script name is: " $0
+echo "First Arg is: " $1
+echo "Second arg is: " $2
+echo "Third arg is: " $3
+echo "Tenth arg is : " ${10}
+echo "All the args: " $*
+echo "All the args using @: " $@
+echo "Number of args..: " $#
+echo "PID is: " $$
+Date
+cal
+echo "Previous cmd execution status is: " $?
+else
+echo "Please pass the 2 args.."
+echo "Usage: sh $0 dbname dbbloc"
+
+fi
+
+
+
+
+-eq --> ==
+-le --> <=
+-lt --> <
+-gt --> >
+-ge --> >=
+-ne --> !=
+
+
+
+Tomcat 
+
+
+java -version
+
+if [ $? -eq 0 ]
+
+then
+echo "Java installed already.. Go haed and install the tomcat s/w"
+else
+echo "Java is not installed .. so install Java first then install the Tomcat s/w"
+
+fi
+
+
+String
+------
+
+Zero or More chars enclosed in a single or double quotes..
+
+
+
+name=''
+name='Mithun Technologies'
+name="Mithun Technologies"
+
+
+name="Hi Team, My name is Mithun Reddy L, working in IBM, Manyatha Techpark"
+
+echo $name --> Hi Team, My name is Mithun Reddy L, working in IBM, Manyatha Techpark
+
+echo ${name} -->
+
+length() --> length of the string..
+
+echo ${#name} --> length of the var
+
+
+echo ${name:20} --> Mithun Reddy L, working in IBM, Manyatha Techpark
+
+ echo ${name:20:14} --> Mithun Reddy L
+
+echo ${name:0:10}
+
+echo ${name: -8} 
+
+(OR)
+
+output=`echo ${name: (-8)}`
+
+
+
+'
+""
+` --> Inverted Comma
+
+~ --> Tild Symbol
+
+
+expr 10+20
+
+expr 10 - 20
+
+expr 2 * 3
+
+expr 10 / 2
+
+expr 20 % 3
+
+
+Cl args + A Ops
+
+Write a shellscript to perform the ar ops for any given 2 numbers.
+
+
+sh arops.sh 1 2
+sh arops.sh 10 20
+
+
+read command
+------------
+
+echo "Please enter your name.."
+read name
+echo "The name you have typed is...." $name
+----------------------------------------------------
+read command + A Ops
+
+Write a shellscript to perform the ar ops for any given 2 numbers.
+
+
+echo "Please enter the 1st number.."
+read numb1
+
+echo "Please enter the 2nd number.."
+read numb2
+
+expr $numb1 + $numb2
+
+
+----------------------------------------------------
+
+echo "Please enter the DevOps tools..."
+
+read devOpsTools
+
+echo "The DevOps tools which you have entered are:......." $devOpsTools
+
+----------------------------------------------------
+
+Array
+-----
+
+echo "Please enter the DevOps tools..."
+
+read -a devOpsTools
+
+echo "The DevOps tools which you have entered are:......." ${devOpsTools[*]}
+
+echo "The 4th Value is: " ${devOpsTools[3]}
+
+
+----------------------------------------------------
+
+echo "Please enter your name.."
+
+read
+
+echo "The name which you have entered is:... " $REPLY
+
+
+----------------------------------------------------
+
+echo "Please enter your bank username.."
+read username
+
+echo "Please enter the password.."
+read passwd
+
+echo "The username which you have tyoed is.. " $username
+echo "The password which yiu have tyoed is:  " $passwd
+
+----------------------------------------------------
+
+read -p "Please enter your bank username..  " username
+read -p "Please enter the password..  " passwd
+
+echo "The username which you have typed is:  " $username
+echo "The Password which you have typed is:  " $passwd
+
+----------------------------------------------------
+
+
+
+> --> redirect std o/p
+
+>> --> append the std o/p
+
+< --> std i/p
+
+
+sh hello.sh
+
+
+
+File Desriptors
+---------------
+0 --> std i/p
+
+1 --> std 0/p
+
+2 --> std err
+
+sh clargsif.sh dbname dbbloc > output.txt
+
+sh clargsif.sh dbname dbbloc > output.txt 2>&1
+
+
+sh clargsif.sh dbname dbbloc 2> error.log 1> output.log
+
+
+--------------------------------
+
+C/C++/Java
+-----------
+
+if (condition)
+{
+---
+---
+----
+}
+else
+{
+...
+....
+}
+
+
+Shell Script
+------------
+
+if [ condition ];then
+---
+---
+---
+else
+...
+...
+...
+fi
+
+
+a=10
+b=20
+
+if [ $a -gt $b ]
+then
+echo "$a is biggerthan $b"
+else
+echo "$a is smaller than $b"
+fi
+
+
+
+a=10
+b=20
+c=30
+
+Nested if else condition
+
+
+Write a shell script to accept the file name from the user and check weather file is existed or not?
+
+echo "Please enter the file name.."
+
+read filename
+
+if [ -f $filename ]
+then
+echo "$filename is existed... in current dir"
+echo "File contents are "
+cat $filename
+else
+
+echo "$filename is not existed... in current dir"
+echo "$filename is creating.."
+touch $filenames
+
+fi
+
+
+1) Write a shell script to accept the file name from the user and check weather file is having read permission for the user or not?
+
+
+2) Write a shell script to accept the file name from the user and check weather file is having write permission for the user or not?
+
+3) Write a shell script to accept the file name from the user and check weather file is having execute permission for the user or not?
+
+4) Write a shell script to accept the file name from the user and check weather file is having read,write and execute permissions for the user or not?
+
+
+
+forloop
+
+while loop
+
+switch case
+
+functions
+
+
+Monday
+------
+GitHub Administration
+
+
+
+
+
+
+
